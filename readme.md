@@ -1,5 +1,15 @@
 # 🍾
 
+## Install
+
+```sh
+$ yarn global add skumpa-bitcoin
+```
+
+```sh
+$ npm install --global skumpa-bitcoin
+```
+
 ## Usage
 
 ```sh
