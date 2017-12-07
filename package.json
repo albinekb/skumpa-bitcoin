@@ -1,6 +1,7 @@
 {
   "name": "skumpa-bitcoin",
   "version": "1.0.0",
+  "description": "🍾 Check how much skumpa you can vaska for all your BTC",
   "main": "index.js",
   "license": "MIT",
   "bin": {
@@ -9,5 +10,18 @@
   "dependencies": {
     "dot-prop": "^4.2.0",
     "isomorphic-fetch": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albinekb/skumpa-bitcoin.git",
+    "keywords": [
+      "skumpa",
+      "bitcoin",
+      "btc",
+      "usd",
+      "cheeseburgers",
+      "cheeseburger"
+    ],
+    "author": "albinekb"
   }
 }
