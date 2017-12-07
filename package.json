@@ -1,6 +1,6 @@
 {
   "name": "skumpa-bitcoin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🍾 Check how much skumpa you can vaska for all your BTC",
   "main": "index.js",
   "license": "MIT",
