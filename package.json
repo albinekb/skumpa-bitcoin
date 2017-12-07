@@ -1,0 +1,13 @@
+{
+  "name": "skumpa-bitcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "skumpa-bitcoin": "index.js"
+  },
+  "dependencies": {
+    "dot-prop": "^4.2.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
