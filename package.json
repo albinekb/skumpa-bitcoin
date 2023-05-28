@@ -8,7 +8,7 @@
     "skumpa-bitcoin": "index.js"
   },
   "dependencies": {
-    "dot-prop": "^5.0.0",
+    "dot-prop": "^8.0.0",
     "isomorphic-fetch": "^2.2.1"
   },
   "repository": {
