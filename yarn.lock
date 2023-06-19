@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-dot-prop@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.0.0.tgz#64b7968af349c3a9f966aa12658dbd5829f6b953"
+dot-prop@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-8.0.0.tgz#bfd2dcfd1b0e836c961b033d840a2918736490d5"
+  integrity sha512-XHcoBL9YPvqIz6K9m9TLf9+6Iyf2ix6yYN+sZ4AI8JPg+8XQpm05V6qzPFZYzyuHfr496TqKlhzHuEvW4ME7Pw==
   dependencies:
-    is-obj "^1.0.0"
+    type-fest "^3.8.0"
 
 encoding@^0.1.11:
   version "0.1.12"
@@ -17,10 +18,6 @@ encoding@^0.1.11:
 iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
-
-is-obj@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
 
 is-stream@^1.0.1:
   version "1.1.0"
@@ -39,6 +36,11 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+type-fest@^3.8.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.11.0.tgz#e78ea6b50d6a6b1e4609035fb9ea8f1e3c328194"
+  integrity sha512-JaPw5U9ixP0XcpUbQoVSbxSDcK/K4nww20C3kjm9yE6cDRRhptU28AH60VWf9ltXmCrIfIbtt9J+2OUk2Uqiaw==
 
 whatwg-fetch@>=0.10.0:
   version "2.0.3"
