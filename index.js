@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-const fetch = require('isomorphic-fetch')
-const dotProp = require('dot-prop')
+
+
 const URL = 'https://api.coindesk.com/v1/bpi/currentprice.json'
 const input = process.argv[2] || 1
 
@@ -10,8 +10,13 @@ const CHEEZE_BURGER = 1
 
 async function getBTCRate() {
   const res = await fetch(URL)
-  const json = await res.json()
-  return dotProp.get(json, 'bpi.USD.rate_float')
+  try {
+    const json = await res.json()
+    return json.bpi.USD.rate_float
+  } catch (error) {
+    console.error(error)
+    process.exit(1)
+  }
 }
 
 getBTCRate()
